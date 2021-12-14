@@ -34,7 +34,8 @@ import org.apache.commons.mail.MultiPartEmail;
 //        email.setSocketConnectionTimeout(0);
 //        email.setSocketTimeout(0);
             email.setStartTLSRequired(true);
-//        email.setSSLOnConnect(true);
+        //den hier auskommentiert
+        email.setSSLOnConnect(true);
             email.setAuthenticator(new
                     DefaultAuthenticator("anyas8680@outlook.de", "#Al-Fettah_19#"));
 
