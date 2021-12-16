@@ -7,7 +7,7 @@ public class Main
 
         System.out.println("hat git funktioniert");
         System.out.println("bla bla ");
-       
+
 
     }
 }
